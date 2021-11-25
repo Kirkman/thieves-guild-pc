@@ -329,7 +329,7 @@ insert(' ',ln3o,151);
   Procedure CHSTMSG;
     Var
       OLDNAME,NEWNAME:Text;
-      JUNK,TOLD,TEMP:String[80];
+      JUNK,TOLD,TEMP:str80;
       PLACE:Integer;
     Begin
       PLACE:=0;
@@ -1650,7 +1650,7 @@ Procedure PNEW(Var NUM:Integer;Var OVER:Boolean);
           End;
         NUM:=0;
         Mriteln ('Done!');
-        SAVEINFO(OVER);
+        SAVEINFO;
         A_CRYPT:=True;GETEMGONE(False);A_CRYPT:=False;
         End
     End;
@@ -2358,7 +2358,7 @@ Procedure PNEW(Var NUM:Integer;Var OVER:Boolean);
         SEX,FOUGHT:Boolean;
         GUESSER,COUNT,GUESSER2:Integer;
         REACT,SURE:str80;
-        AHINT:String[160];
+        AHINT:FIXEDONE;
         ANAME:Text;
     Begin
       If MODE=0 then EM_SEND(402);

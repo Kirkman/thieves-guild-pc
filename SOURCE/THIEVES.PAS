@@ -71,7 +71,7 @@ begin
     If (DRANDOM mod 107)>77 then
       DOUBCHECK:=False;
 
-  If DOUBCHECK then SAVEINFO(OVER);
+  If DOUBCHECK then SAVEINFO;
     ISITOK:=False;
 
   if (over = TRUE) then

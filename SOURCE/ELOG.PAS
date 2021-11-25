@@ -2,7 +2,7 @@ UNIT Elog;
 
 INTERFACE
 
-Uses Crt,Dos,NetFileP,DDPlus;
+Uses Crt,Comunit,Io,Dos,NetFileP,DDPlus;
 
 VAR
  SaveExitProc: POINTER;

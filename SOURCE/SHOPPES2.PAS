@@ -738,7 +738,7 @@ procedure tavern(var over : boolean; var sun : longint);
   var
     me, choice, golds, sure, junk, drink, temp, react, jjjunk : str80;
     temp2 : str80;
-    AHINT:String[160];
+    AHINT:FIXEDONE;
     FNAME,SNAME:Text;
     ANAME:Text;
     TOTAL,JOB,LJOB,COND,RIGHT,IS,GOLD,WHICH,D,J,RANDOM,TI,SCOUNT,SCCOUNT,

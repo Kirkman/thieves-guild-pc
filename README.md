@@ -21,7 +21,7 @@ In 2021, Craig Hendricks and Josh Renaud edited the PC source to enable it to co
 How do I try the game?
 ----------------------
 
-Download the [thieves-guild-pc.zip](thieves-guild-pc.zip) file, which contains the new executables, as well as the original support files and documentation. This ZIP file simulates what Mythyn Software might have distributed in 1995.
+Download the [THIEVES.ZIP](THIEVES.ZIP) file, which contains the new executables, as well as the original support files and documentation. This ZIP file simulates what Mythyn Software might have distributed in 1995.
 
 If you only want to try the game yourself, you can run it in "local mode" by issuing this command in an emulator or on vintage hardware:
 

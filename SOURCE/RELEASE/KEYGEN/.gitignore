@@ -1,0 +1,3 @@
+# Force Git to ignore everything in this directory except this file.
+*
+!.gitignore

@@ -1,3 +1,5 @@
+![Title screen for the PC/ANSI version of Thieves' Guild](THIEVES.png)
+
 Thieves' Guild (PC)
 ===================
 

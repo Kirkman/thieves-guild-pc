@@ -6,19 +6,7 @@ Thieves' Guild (PC)
 What is this?
 -------------
 
-This repo contains source code for the PC version of Thieves' Guild, a door game for BBSes. The code has been modified so that it will compile successfully in Turbo Pascal 7.
-
-History
--------
-
-Paul Witte of Mythyn Software created Thieves' Guild for Atari ST BBSes. The Atari version was written in Pascal using OSS's Personal Pascal compiler from 1990-93.
-
-Witte asked Myron Crandall to port Thieves' Guild to the PC. Crandall's version was written in Turbo Pascal. Crandall appears to have completed his port in 1995, and compiled a version for shareware distribution in September 1995. For unknown reasons, though, the PC version was never distributed.
-
-Decades later, Witte sent floppy disks to Josh Renaud, who retrieved the Atari and PC source code in 2020. At that time, Renaud noted that `THIEVES.EXE` for the PC would not run in the DOSBOX emulator. A log file from the floppy disks made it clear that the same errors Renaud saw in 2020 were also occurring in 1995 at the same time the game was originally compiled.
-
-In 2021, Craig Hendricks and Josh Renaud edited the PC source to enable it to compile and run successfully.
-
+This repo contains source code for the PC version of [Thieves' Guild](https://breakintochat.com/wiki/Thieves%27_Guild), a door game for BBSes. The code has been modified so that it will compile successfully in Turbo Pascal 7.
 
 How do I try the game?
 ----------------------
@@ -56,5 +44,16 @@ You shouldn't attempt to compile this software if you aren't somewhat familiar w
 8. OPTIONAL. Run `4CLEANUP.BAT` to clean up the `SOURCE` directory and its subdirectories. This batch script remove all TPU files created during compilation.
 
 
+
+History
+-------
+
+[Paul Witte](https://breakintochat.com/blog/2020/09/15/paul-witte-and-herb-flower-creators-of-thieves-guild/) of Mythyn Software created [Thieves' Guild for Atari ST BBSes](https://breakintochat.com/blog/2020/09/15/thieves-guild-memories/). The Atari version was written in Pascal using OSS's Personal Pascal compiler from 1990-93.
+
+Witte asked Myron Crandall to port Thieves' Guild to the PC. Crandall's version was written in Turbo Pascal. Crandall appears to have completed his port in 1995, and compiled a version for shareware distribution in September 1995. For unknown reasons, though, the PC version was never distributed.
+
+Decades later, Witte sent floppy disks to Josh Renaud, who retrieved the [Atari and PC source code](https://github.com/Kirkman/mythyn-archive/tree/master/thieves-guild) in 2020. At that time, Renaud noted that `THIEVES.EXE` for the PC would not run in the DOSBOX emulator. A log file from the floppy disks made it clear that the same errors Renaud saw in 2020 were also occurring in 1995 at the same time the game was originally compiled.
+
+In 2021, Craig Hendricks and Josh Renaud edited the PC source to enable it to compile and run successfully.
 
 
